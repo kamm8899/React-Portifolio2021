@@ -7,7 +7,7 @@ import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 
-import './App.css';
+import './index.css';
 
 function App() {
 
@@ -36,13 +36,11 @@ function App() {
 
   return (
     <div>
-      <main>
         <Header setCount = {setCount}></Header>
         {renderPage()}
-
-        
-      </main>
-  
+        <main>
+          <About></About>
+        </main>
     </div>
   );
 }

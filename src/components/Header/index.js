@@ -3,10 +3,16 @@ import Nav from '../Nav';
 
 function Header(props) {
     return (
-        <header>
-            <Nav setCount= {props.setCount} />
-            
+        <div>
+        <header className= 'header'>
+            <div>
+        <h2>
+        <span className= 'name'></span> Jessica Kamman
+      </h2>
+      </div>
+        <Nav setCount= {props.setCount} />  
         </header>
+        </div>
     )
 }
 
