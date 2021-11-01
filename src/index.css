@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+
+:root{
+  background-color: #534B62;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -19,7 +23,7 @@ code {
 
 header{
   padding: 20px;
-  background-color: #1B1725;
+  background-color: #1B1725 !important;
   display: flex;
   /*ensures that the name and the menu is seperated*/
   justify-content: right;
@@ -63,10 +67,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-main {
+.main {
+
 	margin: 0 auto;
 	max-width: 90%;
   padding: 50px 30px;
+  background-color: #534B62;
 }
 :root {
   --secondary: #F3A847;
@@ -79,6 +85,17 @@ main {
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
 
+}
+.mainPage{
+padding: 20px 30px 40px;
+display: flex;
+flex-direction: column;
+justify-content: space-around
+}
+.mainPage p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 
@@ -94,7 +111,6 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--dark);
   color: var(--light);
   font-family: 'Poiret One', cursive;
 

@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import logo from './logo.svg';
+
 import About from './components/About';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -37,10 +37,12 @@ function App() {
   return (
     <div>
         <Header setCount = {setCount}></Header>
+        
+        <main className="mainPage">
         {renderPage()}
-        <main>
-          <About></About>
         </main>
+       
+        <Footer></Footer>
     </div>
   );
 }
