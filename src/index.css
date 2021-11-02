@@ -3,7 +3,7 @@
 }
 
 :root{
-  background-color: #534B62;
+  background-color: #C2B2B4;
 }
 body {
   margin: 0;
@@ -23,18 +23,15 @@ code {
 
 header{
   padding: 20px;
-  background-color: #1B1725 !important;
+  background-color: #6B4E71 !important;
   display: flex;
   /*ensures that the name and the menu is seperated*/
-  justify-content: right;
+  justify-content: space-between;
   position:sticky;
 }
 
 .name{
   font-size: 30px !important;
-  display: flex;
-  justify-content:left;
-  position:sticky;
 }
 
 .App-logo {
