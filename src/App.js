@@ -22,7 +22,7 @@ function App() {
       return <Portfolio></Portfolio>
       
     case 2:
-      return <ContactForm></ContactForm>
+      return <Contact></Contact>
       
     case 3: 
       return <Resume></Resume>
