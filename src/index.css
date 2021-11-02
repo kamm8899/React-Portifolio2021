@@ -23,7 +23,7 @@ code {
 
 header{
   padding: 20px;
-  background-color: #6B4E71 !important;
+  background-color: #1D1A31 !important;
   display: flex;
   /*ensures that the name and the menu is seperated*/
   justify-content: space-between;
