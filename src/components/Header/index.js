@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from '../Nav';
 import logo from '../../assets/white_logo_transparent_background.png';
 const display={
-    fled:{
+    flex:{
         justifyContent:"space-between"
     },
     img:{

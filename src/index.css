@@ -3,7 +3,7 @@
 }
 
 :root{
-  background-color: #C2B2B4;
+  background-color: #4D2D52;
 }
 body {
   margin: 0;
@@ -12,6 +12,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #C1A5A9
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -27,6 +28,13 @@ header{
   display: flex;
   /*ensures that the name and the menu is seperated*/
   justify-content: space-between;
+  position:sticky;
+}
+#footer{
+  padding: 20px;
+  background-color: #1D1A31 !important;
+  display: flex;
+  /*ensures that the name and the menu is seperated*/
   position:sticky;
 }
 
