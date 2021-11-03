@@ -42,6 +42,14 @@ header{
   font-size: 30px !important;
 }
 
+.Resume h1,h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #C1A549;
+
+
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

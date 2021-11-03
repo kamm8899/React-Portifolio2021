@@ -4,13 +4,12 @@ import Resume from '../../assets/Resume.pdf'
 
 function ResumeF() {
     return (
-        <section>
-            <h1> Jessica Kamman Resume</h1>
+        <section className= "Resume">
+            <h1>Resume</h1>
             <hr></hr>
             <Document file={Resume} options={{workerSrc: "pdf.worker.js"}}>
                 <Page pageNumber={1} />
             </Document>
-            {/* <a href="http://localhost:3000/homework/React-Portifolio2021/src/assets/Resume.pdf" alt="resume">View My Full Resume</a> */}
             <div className="Resume">
                 <h2>Technical Proficency: Front End </h2>
                 <ul>
