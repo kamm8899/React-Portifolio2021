@@ -3,9 +3,9 @@ import React from 'react';
 function About() {
   return (
   
-    <section className="mx-5">
+    <section>
       <div className= "img-headshot">
-    <h1 id="about">About Me?</h1>
+    <h1 className="about">About Me?</h1>
     <p>Insightful result-driven Software Engineer with notable success in planning, analyzing, andd implementing Software through the DevOps Framework and IT Solutions in support of business objectives, with the  
      solutions in support of business objective. Posses strong commitment to enviroment dynamics with the ability to lead teams from a startup state to a mature Agile based team.  
      
