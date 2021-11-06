@@ -4,10 +4,7 @@ import { capitalizeFirstLetter } from '../../utils/helpers';
 import Project from '../../project';
 
 function Portfolio(project) {
-    const 
-    projects= useState([
-
-
+    const [projects, setProjects] = useState([
         {
             "id": 1,
             "name": "Movie_Analytics",
@@ -97,12 +94,12 @@ function Portfolio(project) {
         "deploy": ""
         }
         ]);
-    console.log(projects);
+
     return (
     <div>
-        {projects.forEach(project => { 
-            <Project key={project.id} project={project}/>
-            console.log(project);
+        <Project key={39899373} project={projects[2]}>Black Poop</Project>
+        {projects.forEach((project) => { 
+            <Project key={project.id} project={project}>Black Poop</Project>
 })}
     </div>
  );

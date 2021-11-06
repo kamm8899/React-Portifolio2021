@@ -1,20 +1,22 @@
 import React from 'react';
 
-function Project(project){
+function Project(props){
     const {
         name,
         techStack,
         github,
         deploy
-    }=project;
+    }=props.project;
 
     return(
+
         <div className = "flex-row">
             <section>
+            <p></p>
                 <h1>{name}</h1>
                 <p>{techStack}</p>
-                <a href = {github}></a>
-                <a href = {deploy}></a>
+                <a href = {github}>Github WebPage</a>
+                <a href = {deploy}>Deployed To</a>
                 {/* <img
                     src= {`./assets/images/${image}`} width= "50" /> */}
 
