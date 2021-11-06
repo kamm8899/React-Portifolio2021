@@ -1,4 +1,5 @@
 import React from 'react';
+import profilePic from '../../assets/images/Headshot.jpeg'
 
 function About() {
   return (

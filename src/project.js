@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Projects(project){
+function Project(project){
     const {
         name,
         techStack,
@@ -25,5 +25,5 @@ function Projects(project){
 
 }
 
-export default Projects;
+export default Project;
 
