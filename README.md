@@ -1,3 +1,18 @@
+## React-Portifolio 2021
+This project is a react Portifolio of my most valuable work that I have committed in the last year. The portifolio includes HTML/CSS project, with the use of Node.js, React.js, Express.Js, Mongodb and SQL. One of the projects that can be found on the portifolio page also includes a MVC Dashboard project, and a Object Oriented project. In addition, I have also added a project that analysis movie data from IMDB which showcases my knowledge of Python and using Juptyer Notebook. 
+
+The following projects do not have live deployment webpage, and the link will not work for those:
+
+* Movie_Analytics 
+* Employee Database
+* MVC Dashboard
+* Mongodb_Social
+
+These links will refers you back to the Github pages, these are strictly backend projects that where not deployed as they do not have a full front end component. 
+
+## Contribution
+This portifolio did not have any contribution for building the application. There are various contributions for the projects that are refrenced in the Portifolio section which can be found on the individual project Readme page. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

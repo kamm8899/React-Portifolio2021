@@ -20,7 +20,7 @@ function Portfolio(project) {
             "image": mountain,
             "techStack": "Python",
             "github": "https://github.com/kamm8899/Movie-Analytics-Country",
-            "deploy": ""
+            "deploy": "https://github.com/kamm8899/Movie-Analytics-Country"
         }, 
         {
             "id": 2,
@@ -68,7 +68,7 @@ function Portfolio(project) {
             "image": teamgenerator,
             "techStack": "JavaScript, Node.Js, CSS and HTML",
             "github": "https://github.com/kamm8899/Team-Profile-Generator--OOP",
-            "deploy": "" 
+            "deploy": "https://github.com/kamm8899/Team-Profile-Generator--OOP" 
         },
         {
             "id": 8,
@@ -76,7 +76,7 @@ function Portfolio(project) {
             "image": employeedata,
             "techStack": "JavaScript, Node.Js, Sequelize, Express.Js CSS and HTML",
             "github": "https://github.com/kamm8899/Team-Profile-Generator--OOP",
-            "deploy": ""  
+            "deploy": "https://github.com/kamm8899/Team-Profile-Generator--OOP"  
         },
         {
             "id": 9,
@@ -92,7 +92,7 @@ function Portfolio(project) {
             "image": mongodb_social,
             "techStack": "JavaScript, Node.Js, Mongoose, MongoDBCSS and HTML",
             "github": "https://github.com/kamm8899/Mongodb_Social",
-            "deploy": "" 
+            "deploy": "https://github.com/kamm8899/Mongodb_Social" 
         },
         { 
         "id": 11,
@@ -100,7 +100,7 @@ function Portfolio(project) {
         "image": deepblue,
         "techStack": "JavaScript, Node.Js, Sequelize,SQL and HTML",
         "github": "https://github.com/kamm8899/Mongodb_Social",
-        "deploy": ""
+        "deploy": "https://deep-blue-project-2.herokuapp.com/"
         }
         ]);
 
