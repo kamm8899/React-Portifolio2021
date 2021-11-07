@@ -58,7 +58,8 @@ header{
   display: flex;
   flex-direction: column !important;
   justify-content: center;
-  width: 25px;
+  color: rgb(45, 8, 45)
+
 }
 .flex-row h1{
   margin: 5% !important;
@@ -67,15 +68,21 @@ header{
 .flex-row a{
   color:rgba(0, 0, 0, .65)!important;
   font-weight: bold !important;
-  font-size: 25px;
+  font-size: 12px;
+  background-color: grey;
 }
 .flex-row p{
-  color:rgba(0, 0, 0, .65)!important;
+  color: black!important;
   font-weight: bold !important;
-  font-size: 25px;
+  font-size: 12x;
   padding: 0 !important;
   margin-bottom: 0;
+  background-color: grey;
 }
+.text-box{
+  background-color: grey;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -10,22 +10,26 @@ function Project(props){
     }=props.project;
 
     const url= {
-        backgroundImage: `url(${image})`
-
+        backgroundImage: `url(${image})`,
+        width: "30%",
+        border: "5px solid rgb(45, 8, 45)",
+        margin: "10px"
     }
+    const flex={
+        display: "flex",
+        
+    }
+   
+
     return(
 
-        <div className = "flex-row">
-            <section className="port" style={url}>
-            {/* <img src={image} alt ="image" /> */}
+        <div style = {flex} className = "flex-row">
+            <section style={url}>
                 <h1>{name}</h1>
                 <p>{techStack}</p>
                 <a className= "github" href = {github}>Visit Github</a>
                 <br></br>
                 <a href = {deploy}>Deployed To</a>
-                {/* <img
-                    src= {`./assets/images/${image}`} width= "50" /> */}
-                    
 
             </section>
 
