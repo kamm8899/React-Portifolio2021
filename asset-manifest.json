@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/React-Portifolio2021/static/css/main.51e2a370.chunk.css",
+    "main.js": "/React-Portifolio2021/static/js/main.348ee07d.chunk.js",
+    "main.js.map": "/React-Portifolio2021/static/js/main.348ee07d.chunk.js.map",
+    "runtime-main.js": "/React-Portifolio2021/static/js/runtime-main.d22926f8.js",
+    "runtime-main.js.map": "/React-Portifolio2021/static/js/runtime-main.d22926f8.js.map",
+    "static/js/2.10fce06d.chunk.js": "/React-Portifolio2021/static/js/2.10fce06d.chunk.js",
+    "static/js/2.10fce06d.chunk.js.map": "/React-Portifolio2021/static/js/2.10fce06d.chunk.js.map",
+    "static/js/3.54552544.chunk.js": "/React-Portifolio2021/static/js/3.54552544.chunk.js",
+    "static/js/3.54552544.chunk.js.map": "/React-Portifolio2021/static/js/3.54552544.chunk.js.map",
+    "index.html": "/React-Portifolio2021/index.html",
+    "static/css/main.51e2a370.chunk.css.map": "/React-Portifolio2021/static/css/main.51e2a370.chunk.css.map",
+    "static/js/2.10fce06d.chunk.js.LICENSE.txt": "/React-Portifolio2021/static/js/2.10fce06d.chunk.js.LICENSE.txt",
+    "static/media/Resume.eeb800b8.pdf": "/React-Portifolio2021/static/media/Resume.eeb800b8.pdf",
+    "static/media/deepblue.c50593b1.png": "/React-Portifolio2021/static/media/deepblue.c50593b1.png",
+    "static/media/employeedata.9d325eaa.png": "/React-Portifolio2021/static/media/employeedata.9d325eaa.png",
+    "static/media/headshot.37da2c5d.jpeg": "/React-Portifolio2021/static/media/headshot.37da2c5d.jpeg",
+    "static/media/mongodb_social.549af978.png": "/React-Portifolio2021/static/media/mongodb_social.549af978.png",
+    "static/media/mountain.b42f443c.png": "/React-Portifolio2021/static/media/mountain.b42f443c.png",
+    "static/media/mvc_dashboard.2f912616.png": "/React-Portifolio2021/static/media/mvc_dashboard.2f912616.png",
+    "static/media/nationalpark.147a5835.png": "/React-Portifolio2021/static/media/nationalpark.147a5835.png",
+    "static/media/password_generator.ac9b2d2a.png": "/React-Portifolio2021/static/media/password_generator.ac9b2d2a.png",
+    "static/media/teamgenerator.0768b104.png": "/React-Portifolio2021/static/media/teamgenerator.0768b104.png",
+    "static/media/weatherforecast.7766b5ea.png": "/React-Portifolio2021/static/media/weatherforecast.7766b5ea.png",
+    "static/media/webapiquiz.ec3ce3e5.png": "/React-Portifolio2021/static/media/webapiquiz.ec3ce3e5.png",
+    "static/media/white_logo_transparent_background.b9a7b931.png": "/React-Portifolio2021/static/media/white_logo_transparent_background.b9a7b931.png",
+    "static/media/work_day_scheduler.a3cb0aef.png": "/React-Portifolio2021/static/media/work_day_scheduler.a3cb0aef.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d22926f8.js",
+    "static/js/2.10fce06d.chunk.js",
+    "static/css/main.51e2a370.chunk.css",
+    "static/js/main.348ee07d.chunk.js"
+  ]
+}
