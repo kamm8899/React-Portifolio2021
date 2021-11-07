@@ -53,14 +53,14 @@ header{
   font-weight: bold;
   color: #C1A549;
 }
-
-.flex-row div {
+.flex-row{
+  border: 1px solid black;
+  width: 25%;
   display: flex;
-  flex-direction: column !important;
-  justify-content: center;
-  color: rgb(45, 8, 45)
-
+  flex-direction: column;
+  margin: 5px;
 }
+
 .flex-row h1{
   margin: 5% !important;
   flex-direction: column;
@@ -83,6 +83,15 @@ header{
   background-color: grey;
 }
 
+#project{
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+ 
+}
+.color{
+  color: yellow;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -134,7 +143,7 @@ margin-bottom: var(--spacing-five);
   flex-direction: column;
   justify-content: center;
   padding: 30px 30px 60px 50px;
-  margin-right: 100px
+  /*margin-right: 100px*/
 }
 
 

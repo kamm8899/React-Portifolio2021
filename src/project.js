@@ -11,28 +11,21 @@ function Project(props){
 
     const url= {
         backgroundImage: `url(${image})`,
-        width: "30%",
         border: "5px solid rgb(45, 8, 45)",
-        margin: "10px"
     }
     const flex={
         display: "flex",
-        
+
     }
    
 
     return(
 
-        <div style = {flex} className = "flex-row">
-            <section style={url}>
+        <div className = "flex-row" style={url}>
                 <h1>{name}</h1>
                 <p>{techStack}</p>
                 <a className= "github" href = {github}>Visit Github</a>
-                <br></br>
                 <a href = {deploy}>Deployed To</a>
-
-            </section>
-
         </div>
     )
 

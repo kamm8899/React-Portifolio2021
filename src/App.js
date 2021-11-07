@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div>
-        <Header setCount = {setCount}></Header>
+        <Header highlight= {count} setCount = {setCount}></Header>
         
         <main className="mainPage">
         {renderPage()}

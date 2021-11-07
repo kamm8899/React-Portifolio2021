@@ -86,6 +86,9 @@ function ResumeF() {
                   <li>
                       SDLC
                   </li>
+                  <li>
+                      SCM 4 Certification
+                  </li>
               </ul>
 
 

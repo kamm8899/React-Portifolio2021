@@ -21,7 +21,7 @@ function Header(props) {
               </h2>
             </div>
             <div>
-              <Nav setCount={props.setCount} />
+              <Nav setCount={props.setCount} highlight={props.highlight}/>
             </div>
           </header>
         </div>
@@ -29,5 +29,3 @@ function Header(props) {
     }
 export default Header;
 
-
-//fix logo on header to left 

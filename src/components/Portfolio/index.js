@@ -10,7 +10,6 @@ import employeedata from '../../assets/images/employeedata.png';
 import mvcdasboard from '../../assets/images/mvc_dashboard.png';
 import mongodb_social from '../../assets/images/mongodb_social.png';
 import deepblue from '../../assets/images/deepblue.png';
-import { capitalizeFirstLetter } from '../../utils/helpers';
 import Project from '../../project';
 
 function Portfolio(project) {
@@ -106,7 +105,7 @@ function Portfolio(project) {
         ]);
 
     return (
-    <div>
+    <div id= "project">
         {/* <Project key={39899373} project={projects[2]}>Black Poop</Project> */}
         {projects.map((project) => { 
            return <Project key={project.id} project={project}>Black Poop</Project>
