@@ -13,6 +13,8 @@ These links will refers you back to the Github pages, these are strictly backend
 ## Contribution
 This portifolio did not have any contribution for building the application. There are various contributions for the projects that are refrenced in the Portifolio section which can be found on the individual project Readme page. 
 
+## Deployed
+This Portifolio is deployed to Github pages : [Deployed Page](https://kamm8899.github.io/React-Portifolio2021/)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
