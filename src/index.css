@@ -54,6 +54,28 @@ header{
   color: #C1A549;
 }
 
+.flex-row div {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  width: 25px;
+}
+.flex-row h1{
+  margin: 5% !important;
+  flex-direction: column;
+}
+.flex-row a{
+  color:rgba(0, 0, 0, .65)!important;
+  font-weight: bold !important;
+  font-size: 25px;
+}
+.flex-row p{
+  color:rgba(0, 0, 0, .65)!important;
+  font-weight: bold !important;
+  font-size: 25px;
+  padding: 0 !important;
+  margin-bottom: 0;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -169,12 +191,6 @@ p {
   margin-top: 0;
 }
 
-a {
-  color: var(--tertiary);
-  text-decoration: none;
-  font-weight: bold;
-}
-
 a:hover {
   text-decoration: underline;
 }
@@ -204,10 +220,6 @@ button:hover {
 button[disabled] {
   cursor: default;
   opacity: .8;
-}
-
-img {
-  max-width: 100%;
 }
 
 span[role="img"] {
@@ -256,15 +268,6 @@ textarea {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.flex-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.space-between {
-  justify-content: space-between;
 }
 
 .flex-end {
@@ -328,32 +331,6 @@ textarea {
   cursor: pointer;
 }
 
-.modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
-}
-
-.modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
-}
-
-.modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
-}
-
 button {
 	background: var(--primary);
 	border: 0;
@@ -366,15 +343,6 @@ button {
 	padding: 10px 15px;	
 }
 
-a {
-	border-radius: 5px;
-	color: var(--primary);
-	font-weight: 600;
-	padding: 2px 4px;
-	margin-left: -2px;
-	margin-right: -2px;
-	
-}
 
 .navActive {
   color: var(--secondary);
