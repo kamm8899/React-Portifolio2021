@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portifolio2021/static/css/main.51e2a370.chunk.css",
-    "main.js": "/React-Portifolio2021/static/js/main.08cc994c.chunk.js",
-    "main.js.map": "/React-Portifolio2021/static/js/main.08cc994c.chunk.js.map",
+    "main.js": "/React-Portifolio2021/static/js/main.e9e66d09.chunk.js",
+    "main.js.map": "/React-Portifolio2021/static/js/main.e9e66d09.chunk.js.map",
     "runtime-main.js": "/React-Portifolio2021/static/js/runtime-main.d22926f8.js",
     "runtime-main.js.map": "/React-Portifolio2021/static/js/runtime-main.d22926f8.js.map",
     "static/js/2.10fce06d.chunk.js": "/React-Portifolio2021/static/js/2.10fce06d.chunk.js",
@@ -20,6 +20,7 @@
     "static/media/mountain.b42f443c.png": "/React-Portifolio2021/static/media/mountain.b42f443c.png",
     "static/media/mvc_dashboard.2f912616.png": "/React-Portifolio2021/static/media/mvc_dashboard.2f912616.png",
     "static/media/nationalpark.147a5835.png": "/React-Portifolio2021/static/media/nationalpark.147a5835.png",
+    "static/media/onlybans.5bed5763.png": "/React-Portifolio2021/static/media/onlybans.5bed5763.png",
     "static/media/password_generator.ac9b2d2a.png": "/React-Portifolio2021/static/media/password_generator.ac9b2d2a.png",
     "static/media/teamgenerator.0768b104.png": "/React-Portifolio2021/static/media/teamgenerator.0768b104.png",
     "static/media/weatherforecast.7766b5ea.png": "/React-Portifolio2021/static/media/weatherforecast.7766b5ea.png",
@@ -31,6 +32,6 @@
     "static/js/runtime-main.d22926f8.js",
     "static/js/2.10fce06d.chunk.js",
     "static/css/main.51e2a370.chunk.css",
-    "static/js/main.08cc994c.chunk.js"
+    "static/js/main.e9e66d09.chunk.js"
   ]
 }
