@@ -11,7 +11,7 @@ import mvcdasboard from '../../assets/images/mvc_dashboard.png';
 import mongodb_social from '../../assets/images/mongodb_social.png';
 import deepblue from '../../assets/images/deepblue.png';
 import Project from '../../project';
-
+import onlybans from '../../assets/images/onlybans.png'; 
 function Portfolio(project) {
     const [projects, setProjects] = useState([
         {
@@ -101,6 +101,14 @@ function Portfolio(project) {
         "techStack": "JavaScript, Node.Js, Sequelize,SQL and HTML",
         "github": "https://github.com/kamm8899/Mongodb_Social",
         "deploy": "https://deep-blue-project-2.herokuapp.com/"
+        },
+        {
+            "id": 12,
+            "name": "OnlyBans",
+            "image": onlybans,
+            "techStack": "JavaScript, Node.Js, GraphQL, Mongo",
+            "github": "https://github.com/zacktmiller92/only-bans",
+            "deploy": "https://only-bans.herokuapp.com/"   
         }
         ]);
 
